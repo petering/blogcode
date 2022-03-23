@@ -45,7 +45,7 @@ jobs:
         run: yarn
  
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
         env:
          # 部署到你的目标仓库，这里就是你的仓库名
           REPO: git@github.com:petering/petering.github.io.git
